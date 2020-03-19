@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-17T15:27:49.900Z</updated>
+  <updated>2020-03-19T14:45:49.848Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据结构与算法-02</title>
+    <link href="http://yoursite.com/2020/03/18/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-02/"/>
+    <id>http://yoursite.com/2020/03/18/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-02/</id>
+    <published>2020-03-18T11:23:10.747Z</published>
+    <updated>2020-03-19T14:45:49.848Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数据结构与算法-02"><a href="#数据结构与算法-02" class="headerlink" title="数据结构与算法-02"></a>数据结构与算法-02</h1><h2 id="时间复杂度与大-O-表示法"><a href="#时间复杂度与大-O-表示法" class="headerlink" title="时间复杂度与大 O 表示法"></a>时间复杂度与大 O 表示法</h2><p>算法的速度并不能简单的以执行时间作为衡量标准</p><p>随着输入数据的两级不断增大，操作数的增数是不同的</p><h3 id="大-O-表示法"><a href="#大-O-表示法" class="headerlink" title="大 O 表示法"></a>大 O 表示法</h3><p>我们常用大 O 表示法表示<a href="https://baike.baidu.com/item/时间复杂度/1894057" target="_blank" rel="noopener">时间复杂度</a>，注意它是某一个算法的时间复杂度。大 O 表示只是说有上界，由定义如果 f(n)=O(n)，那显然成立 f(n)=O(n^2），它给你一个上界，但并不是上确界，但人们在表示的时候一般都习惯表示前者。此外，一个问题本身也有它的<a href="https://baike.baidu.com/item/复杂度" target="_blank" rel="noopener">复杂度</a>，如果某个算法的复杂度到达了这个问题复杂度的下界，那就称这样的算法是最佳算法。</p><h3 id="算法的执行时间"><a href="#算法的执行时间" class="headerlink" title="算法的执行时间"></a>算法的执行时间</h3><p>算法的执行时间等于它所有基本操作执行时间之和， 而一条基本操作的执行时间等于它执行的次数和每一次执行的时间的积，</p><p>如下：</p><p>算法的执行时间 = 操作 1 + 操作 2 + … + 操作 n</p><p>操作的执行时间 = 操作执行次数 X 执行一次的时间</p><p>然而存在一个问题，不同的编程语言，不同的编译器，或不同的 CPU 等因素将导致执行一次操作的时间各不相同，这样的结果会使算法的比较产生歧义， 于是我们假定所有计算机执行相同的一次基本操作所需时间相同，而把算法中基本操作所执行的最大次数作为量度。就是说我们把算法的执行时间简单地用基本操作的执行次数来代替了。</p><h4 id="首先看一个简单的示例："><a href="#首先看一个简单的示例：" class="headerlink" title="首先看一个简单的示例："></a><strong>首先看一个简单的示例：</strong></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">int num1,num2;</span><br><span class="line">for(int i&#x3D;0;i&lt;n;i++)&#123;</span><br><span class="line">num1+&#x3D;1;</span><br><span class="line">for(int j&#x3D;1;j&lt;n;j*&#x3D;2)&#123;</span><br><span class="line">num2+&#x3D;num1;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>分析：</p><p>1.语句 int num1,num2；的频度(==执行次数==)为 1；</p><p>语句 i=0；的频度为 1；</p><p>语句 i&lt;n; i++; num1+=1; j=1; 的频度为 n；</p><p>语句 j&lt;=n;j*=2;num2+=num1;频度为 n * log2 n;</p><p>所有一共执行了 2+4n+3n*log2 n</p><p>忽略掉 T(n）中的常量、低次幂和最高次幂的系数</p><p>f(n) = n*log2n</p><p>当 n 趋向于<a href="https://baike.baidu.com/item/无穷大" target="_blank" rel="noopener">无穷大</a>，1/n 趋向于 0，1/log2n 趋向于 0</p><p>所以<a href="https://baike.baidu.com/item/极限" target="_blank" rel="noopener">极限</a>等于 3。</p><p>T(n) = O(n*log2 n)</p><p><strong>简化的计算步骤</strong></p><p>再来分析一下，可以看出，决定<a href="https://baike.baidu.com/item/算法复杂度/210801" target="_blank" rel="noopener">算法复杂度</a>的是执行次数最多的语句，这里是 num2 += num1，一般也是最内循环的语句。</p><p>并且，通常将求解极限是否为常量也省略掉？</p><p>于是，<strong>以上步骤可以简化为：</strong></p><p>⒈ 找到执行次数最多的语句</p><p>⒉ 计算语句执行次数的<a href="https://baike.baidu.com/item/数量级" target="_blank" rel="noopener">数量级</a></p><p>⒊ 用大 O 来表示结果</p><p>继续以上述算法为例，进行分析：</p><p>⒈</p><p>执行次数最多的语句为 num2 += num1</p><p>⒉</p><p>T(n) = n*log2n</p><p>f(n) = n*log2n</p><p>⒊</p><p>// lim(T(n)/f(n)) = 1</p><p>T(n) = O(n*log2n)</p><p><strong>一些补充说明</strong></p><p>最坏时间复杂度</p><p>算法的时间复杂度不仅与语句频度有关，还与问题规模及输入实例中各元素的取值有关。一般不特别说明，讨论的时间复杂度均是最坏情况下的时间复杂度。这就保证了算法的运行时间不会比任何更长。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;数据结构与算法-02&quot;&gt;&lt;a href=&quot;#数据结构与算法-02&quot; class=&quot;headerlink&quot; title=&quot;数据结构与算法-02&quot;&gt;&lt;/a&gt;数据结构与算法-02&lt;/h1&gt;&lt;h2 id=&quot;时间复杂度与大-O-表示法&quot;&gt;&lt;a href=&quot;#时间复杂度与大-
+      
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>数据结构与算法-01</title>
