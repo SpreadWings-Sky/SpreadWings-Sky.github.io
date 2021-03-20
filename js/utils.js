@@ -1,80 +1,92 @@
-function debounce(func, wait, immediate) {
-  let timeout;
-  return function() {
-    let context = this;
-    let args = arguments;
-    let later = function() {
-      timeout = null;
-      if (!immediate) func.apply(context, args);
-    };
-    let callNow = immediate && !timeout;
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-    if (callNow) func.apply(context, args);
-  };
-}
+// global CONFIG
 
-function throttle(func, wait, mustRun) {
-  let timeout;
-  let startTime = new Date();
-
-  return function() {
-    let context = this;
-    let args = arguments;
-    let curTime = new Date();
-
-    clearTimeout(timeout);
-    if (curTime - startTime >= mustRun) {
-      func.apply(context, args);
-      startTime = curTime;
-    } else {
-      timeout = setTimeout(func, wait);
-    }
-  };
-}
+HTMLElement.prototype.wrap = function(wrapper) {
+  this.parentNode.insertBefore(wrapper, this);
+  this.parentNode.removeChild(this);
+  wrapper.appendChild(this);
+};
 
 Yun.utils = {
-  wrapImage: function() {
-    let images = document.querySelectorAll(
-      ".post-card-excerpt img, .post-content img, .post-excerpt img"
-    );
-    // center & lazy
-    if (images && images.length > 0) {
-      images.forEach(image => {
-        image.loading = "lazy";
-        image.parentNode.style.textAlign = "center";
-      });
+  wrapTable() {
+    document.querySelectorAll("table").forEach((el) => {
+      const container = document.createElement("div");
+      container.className = "table-container";
+      el.wrap(container);
+    });
+  },
+
+  /**
+   * 动态获取脚本，并执行回调函数
+   * @param {*} url
+   * @param {*} callback
+   * @param {*} condition 是否存在对应实例，判断是否加载脚本
+   */
+  getScript(url, callback, condition) {
+    if (condition) {
+      callback();
+    } else {
+      const script = document.createElement("script");
+      script.onload = () => {
+        setTimeout(callback);
+      };
+      script.src = url;
+      document.head.appendChild(script);
     }
   },
 
   /**
-   * Transform embedded video to support responsive layout.
-   * @see https://ultimatecourses.com/blog/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js
+   * click btn to copy codeblock
    */
-  embeddedVideoTransformer: function() {
-    let iframes = document.getElementsByTagName("iframe");
-    let SUPPORTED_PLAYERS = [
-      "www.youtube.com",
-      "player.vimeo.com",
-      "music.163.com"
-    ];
-    for (let i = 0; i < iframes.length; i++) {
-      let iframe = iframes[i];
-      if (iframe.src.search(SUPPORTED_PLAYERS.join("|")) !== -1) {
-        let videoRatio = (iframe.height / iframe.width) * 100;
-        iframe.width = "100%";
+  insertCopyCodeBtn() {
+    const codeblocks = document.querySelectorAll("pre[class*='language-']");
 
-        let wrap = document.createElement("div");
-        wrap.className = "fluid-vids";
-        wrap.style.width = "100%";
-        wrap.style.minHeight = "90px";
-        wrap.style.height = iframe.height;
-        wrap.style.position = "relative";
+    codeblocks.forEach((codeblock) => {
+      if (!CONFIG.copycode) return;
 
-        let iframeParent = iframe.parentNode;
-        iframeParent.insertBefore(wrap, iframe);
-        wrap.appendChild(iframe);
-      }
-    }
-  }
+      const container = document.createElement("div");
+      container.className = "code-container";
+      codeblock.wrap(container);
+
+      container.insertAdjacentHTML(
+        "beforeend",
+        '<div class="copy-btn"><svg class="icon"><use xlink:href="#icon-file-copy-line" aria-label="copy"></use></svg></div>'
+      );
+
+      const copyBtn = container.querySelector(".copy-btn");
+      copyBtn.addEventListener("click", () => {
+        const lines =
+          container.querySelector("code[class*='language-']") ||
+          container.querySelector(".token");
+        const code = lines.innerText;
+        const ta = document.createElement("textarea");
+        ta.style.top = window.scrollY + "px"; // Prevent page scrolling
+        ta.style.position = "absolute";
+        ta.style.opacity = "0";
+        ta.readOnly = true;
+        ta.value = code;
+        document.body.append(ta);
+        ta.select();
+        ta.setSelectionRange(0, code.length);
+        ta.readOnly = false;
+        // copy success
+        const result = document.execCommand("copy");
+        const iconName = result ? "#icon-check-line" : "#icon-timer-line";
+        const iconSvg = copyBtn.querySelector("svg use");
+        iconSvg.setAttribute("xlink:href", iconName);
+        iconSvg.setAttribute("color", result ? "green" : "red");
+
+        ta.blur(); // For iOS
+        copyBtn.blur();
+        document.body.removeChild(ta);
+      });
+
+      container.addEventListener("mouseleave", () => {
+        setTimeout(() => {
+          const iconSvg = copyBtn.querySelector("svg use");
+          iconSvg.setAttribute("xlink:href", "#icon-file-copy-line");
+          iconSvg.setAttribute("color", "gray");
+        }, 200);
+      });
+    });
+  },
 };

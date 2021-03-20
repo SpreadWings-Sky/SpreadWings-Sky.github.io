@@ -1,5 +1,7 @@
-// rf hexo-theme-melody
-// custom by hexo-theme-yun
+// https://codepen.io/juliangarnier/pen/gmOwJX
+// custom by hexo-theme-yun @YunYouJun
+
+// global CONFIG
 
 const numberOfParticules = 20;
 
@@ -15,56 +17,42 @@ const maxAnimeDuration = 1500;
 const minDiffuseRadius = 50;
 const maxDiffuseRadius = 100;
 
-let canvasEl = document.querySelector(".fireworks");
-let ctx = canvasEl.getContext("2d");
 let pointerX = 0;
 let pointerY = 0;
-// let tap = ('ontouchstart' in window || navigator.msMaxTouchPoints) ? 'touchstart' : 'mousedown'
-// Fixed the mobile scroll
-let tap = "mousedown";
-// let colors = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C']
-// 星空蓝
-let colors = [
-  "102, 167, 221",
-  "62, 131, 225",
-  "33, 78, 194"
-  // '3, 28, 95',
-  // '0, 8, 55'
-];
 
-let setCanvasSize = function() {
+// sky blue
+let colors = ["102, 167, 221", "62, 131, 225", "33, 78, 194"];
+if (CONFIG.fireworks.colors) {
+  colors = CONFIG.fireworks.colors;
+}
+
+const canvasEl = document.querySelector(".fireworks");
+// global ctx
+const ctx = canvasEl.getContext("2d");
+
+/**
+ * 设置画布尺寸
+ */
+function setCanvasSize(canvasEl) {
   canvasEl.width = window.innerWidth;
   canvasEl.height = window.innerHeight;
   canvasEl.style.width = window.innerWidth + "px";
   canvasEl.style.height = window.innerHeight + "px";
-  canvasEl.getContext("2d").scale(1, 1);
-};
+}
 
-let render = anime({
-  duration: Infinity,
-  update: function() {
-    ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);
-  }
-});
+setCanvasSize(canvasEl);
 
-document.addEventListener(
-  tap,
-  function(e) {
-    render.play();
-    updateCoords(e);
-    animateParticules(pointerX, pointerY);
-  },
-  false
-);
-
-setCanvasSize();
-window.addEventListener("resize", setCanvasSize, false);
-
+/**
+ * update pointer
+ * @param {TouchEvent} e
+ */
 function updateCoords(e) {
   pointerX =
-    (e.clientX || e.touches[0].clientX) - canvasEl.getBoundingClientRect().left;
+    e.clientX ||
+    (e.touches[0] ? e.touches[0].clientX : e.changedTouches[0].clientX);
   pointerY =
-    e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top;
+    e.clientY ||
+    (e.touches[0] ? e.touches[0].clientY : e.changedTouches[0].clientY);
 }
 
 function setParticuleDirection(p) {
@@ -73,7 +61,7 @@ function setParticuleDirection(p) {
   let radius = [-1, 1][anime.random(0, 1)] * value;
   return {
     x: p.x + radius * Math.cos(angle),
-    y: p.y + radius * Math.sin(angle)
+    y: p.y + radius * Math.sin(angle),
   };
 }
 
@@ -85,7 +73,7 @@ function createParticule(x, y) {
     "rgba(" +
     colors[anime.random(0, colors.length - 1)] +
     "," +
-    anime.random(0.2, 0.6) +
+    anime.random(0.2, 0.8) +
     ")";
   p.radius = anime.random(minCircleRadius, maxCircleRadius);
   p.endPos = setParticuleDirection(p);
@@ -134,29 +122,53 @@ function animateParticules(x, y) {
     .timeline()
     .add({
       targets: particules,
-      x: function(p) {
+      x(p) {
         return p.endPos.x;
       },
-      y: function(p) {
+      y(p) {
         return p.endPos.y;
       },
       radius: 0.1,
       duration: anime.random(minAnimeDuration, maxAnimeDuration),
       easing: "easeOutExpo",
-      update: renderParticule
-    })
-    .add({
-      targets: circle,
-      radius: anime.random(minOrbitRadius, maxOrbitRadius),
-      lineWidth: 0,
-      alpha: {
-        value: 0,
-        easing: "linear",
-        duration: anime.random(600, 800)
-      },
-      duration: anime.random(1200, 1800),
-      easing: "easeOutExpo",
       update: renderParticule,
-      offset: 0
-    });
+    })
+    .add(
+      {
+        targets: circle,
+        radius: anime.random(minOrbitRadius, maxOrbitRadius),
+        lineWidth: 0,
+        alpha: {
+          value: 0,
+          easing: "linear",
+          duration: anime.random(600, 800),
+        },
+        duration: anime.random(1200, 1800),
+        easing: "easeOutExpo",
+        update: renderParticule,
+      },
+      0
+    );
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  /* global anime */
+  const render = anime({
+    duration: Infinity,
+    update: () => {
+      ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);
+    },
+  });
+
+  document.addEventListener(
+    "mousedown",
+    (e) => {
+      render.play();
+      updateCoords(e);
+      animateParticules(pointerX, pointerY);
+    },
+    false
+  );
+});
+
+window.addEventListener("resize", setCanvasSize(canvasEl), false);
