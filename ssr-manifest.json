@@ -183,7 +183,7 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../../\u0000/home/runner/work/Blog/Blog/node_modules/dayjs/plugin/relativeTime.js?commonjs-module": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../../\u0000/home/runner/work/Blog/Blog/node_modules/nprogress/nprogress.js?commonjs-module": [
@@ -1165,6 +1165,9 @@
     "/assets/KaTeX_Typewriter-Regular-e14fed02.woff",
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
+  "../../../components/YunFooter.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/YunFooter.vue_vue_type_script_setup_true_lang-fd28e82c.js"
+  ],
   "../../../locales/en.yml": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
     "/assets/KaTeX_AMS-Regular-30da91e8.woff",
@@ -1288,29 +1291,32 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../../pages/404.md": [
-    "/assets/404-485eaa66.js"
+    "/assets/404-810cf563.js"
   ],
   "../../../pages/about/index.md": [
-    "/assets/index-ffa8fce8.js"
+    "/assets/index-cdd102d2.js"
   ],
   "../../../pages/about/site.md": [
-    "/assets/site-325aa745.js"
+    "/assets/site-deb93036.js"
   ],
   "../../../pages/archives/index.md": [
-    "/assets/index-b08d565f.js"
+    "/assets/index-722948e4.js"
   ],
   "../../../pages/categories/index.md": [
-    "/assets/index-f75bbd67.js"
+    "/assets/index-ce7154f0.js"
   ],
   "../../../pages/links/index.md": [
-    "/assets/index-864e3270.js",
+    "/assets/index-f09cece8.js",
     "/assets/index-bc3499c1.css"
   ],
   "../../../pages/posts/hello-valaxy.md": [
-    "/assets/hello-valaxy-3fd071fd.js"
+    "/assets/hello-valaxy-c6e15773.js"
+  ],
+  "../../../pages/posts/hello-world.md": [
+    "/assets/hello-world-26bebaac.js"
   ],
   "../../../pages/tags/index.md": [
-    "/assets/index-a0ea012c.js"
+    "/assets/index-ac326550.js"
   ],
   "../../../styles/css-vars.scss": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
@@ -2715,7 +2721,7 @@
     "/assets/KaTeX_Typewriter-Regular-e14fed02.woff",
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
-  "../../@unhead/vue/dist/shared/vue.b6e29710.mjs": [
+  "../../@unhead/vue/dist/shared/vue.3c82dacb.mjs": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
     "/assets/KaTeX_AMS-Regular-30da91e8.woff",
     "/assets/KaTeX_AMS-Regular-68534840.ttf",
@@ -4485,7 +4491,7 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../dayjs/plugin/relativeTime.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../fuse.js/dist/fuse.esm.js": [
@@ -5099,25 +5105,25 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/ValaxyMain.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/ValaxyMain.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunAlgoliaSearch.vue": [
-    "/assets/YunAlgoliaSearch-bd714f6c.js"
+    "/assets/YunAlgoliaSearch-42ad1672.js"
   ],
   "../../valaxy-theme-yun/components/YunAlgoliaSearch.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunAlgoliaSearch-bd714f6c.js"
+    "/assets/YunAlgoliaSearch-42ad1672.js"
   ],
   "../../valaxy-theme-yun/components/YunAside.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunAside.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunBackToTop.vue": [
@@ -5304,11 +5310,11 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunBanner.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunBanner.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunBg.vue": [
@@ -5495,35 +5501,35 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunCard.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunCard.vue_vue_type_style_index_0_lang-4e3f0f94.js",
+    "/assets/YunCard.vue_vue_type_style_index_0_lang-eb4bd4c1.js",
     "/assets/YunCard-678c7f03.css"
   ],
   "../../valaxy-theme-yun/components/YunCard.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunCard.vue_vue_type_style_index_0_lang-4e3f0f94.js",
+    "/assets/YunCard.vue_vue_type_style_index_0_lang-eb4bd4c1.js",
     "/assets/YunCard-678c7f03.css"
   ],
   "../../valaxy-theme-yun/components/YunCategories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories-1eaae6d5.js",
+    "/assets/categories-aa760e0e.js",
     "/assets/categories-a60bba25.css"
   ],
   "../../valaxy-theme-yun/components/YunCategories.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/categories-1eaae6d5.js",
+    "/assets/categories-aa760e0e.js",
     "/assets/categories-a60bba25.css"
   ],
   "../../valaxy-theme-yun/components/YunCategory.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories-1eaae6d5.js",
+    "/assets/categories-aa760e0e.js",
     "/assets/categories-a60bba25.css"
   ],
   "../../valaxy-theme-yun/components/YunCloud.vue": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunCloud.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunComment.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunConfig.vue": [
@@ -5649,7 +5655,7 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunFooter.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunFooter.vue_vue_type_script_setup_true_lang-433738df.js"
+    "/assets/YunFooter.vue_vue_type_script_setup_true_lang-fd28e82c.js"
   ],
   "../../valaxy-theme-yun/components/YunFuseSearch.vue": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
@@ -5835,51 +5841,51 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunGoDown.vue": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunGoDown.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunLinks.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-864e3270.js",
+    "/assets/index-f09cece8.js",
     "/assets/index-bc3499c1.css"
   ],
   "../../valaxy-theme-yun/components/YunLinks.vue?vue&type=stye&index=0&lang.scss": [
-    "/assets/index-864e3270.js",
+    "/assets/index-f09cece8.js",
     "/assets/index-bc3499c1.css"
   ],
   "../../valaxy-theme-yun/components/YunNotice.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunNotice.vue?vue&type=style&index=0&lang.css": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunOutline.vue": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunOutline.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunOutline.vue?vue&type=style&index=0&scoped=3ec1ec4d&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunOutlineItem.vue": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunOutlineItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunOutlineItem.vue?vue&type=style&index=0&scoped=00264c1d&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunOverview.vue": [
@@ -6066,62 +6072,62 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunPageHeader.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPageHeader.vue_vue_type_script_setup_true_lang-91911034.js"
+    "/assets/YunPageHeader.vue_vue_type_script_setup_true_lang-e8f8c41d.js"
   ],
   "../../valaxy-theme-yun/components/YunPostCard.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_style_index_0_lang-40539970.js",
+    "/assets/YunPostList.vue_vue_type_style_index_0_lang-0c81998f.js",
     "/assets/YunPostList-15692327.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCategories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-a6f16115.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-f97bb2c2.js",
     "/assets/YunPostMeta-54b8d266.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCategoriesAndTags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCollapse.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang-147cb1ab.js",
+    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang-fde69cfa.js",
     "/assets/YunPostCollapse-5eee8e29.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCollapse.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang-147cb1ab.js",
+    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang-fde69cfa.js",
     "/assets/YunPostCollapse-5eee8e29.css"
   ],
   "../../valaxy-theme-yun/components/YunPostList.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_style_index_0_lang-40539970.js",
+    "/assets/YunPostList.vue_vue_type_style_index_0_lang-0c81998f.js",
     "/assets/YunPostList-15692327.css"
   ],
   "../../valaxy-theme-yun/components/YunPostList.vue?vue&type=style&index=0&lang.css": [
-    "/assets/YunPostList.vue_vue_type_style_index_0_lang-40539970.js",
+    "/assets/YunPostList.vue_vue_type_style_index_0_lang-0c81998f.js",
     "/assets/YunPostList-15692327.css"
   ],
   "../../valaxy-theme-yun/components/YunPostMeta.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-a6f16115.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-f97bb2c2.js",
     "/assets/YunPostMeta-54b8d266.css"
   ],
   "../../valaxy-theme-yun/components/YunPostMeta.vue?vue&type=style&index=0&lang.css": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-a6f16115.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-f97bb2c2.js",
     "/assets/YunPostMeta-54b8d266.css"
   ],
   "../../valaxy-theme-yun/components/YunPostNav.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunPostNav.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "../../valaxy-theme-yun/components/YunPostTags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-a6f16115.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang-f97bb2c2.js",
     "/assets/YunPostMeta-54b8d266.css"
   ],
   "../../valaxy-theme-yun/components/YunSay.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunSay.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/components/YunSearchBtn.vue": [
@@ -7162,11 +7168,11 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunSponsor.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "../../valaxy-theme-yun/components/YunSponsor.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "../../valaxy-theme-yun/components/YunToggleLocale.vue": [
@@ -7292,22 +7298,22 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/components/YunTwikoo.vue": [
-    "/assets/YunTwikoo-5954c060.js"
+    "/assets/YunTwikoo-36b7000c.js"
   ],
   "../../valaxy-theme-yun/components/YunTwikoo.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunTwikoo-5954c060.js"
+    "/assets/YunTwikoo-36b7000c.js"
   ],
   "../../valaxy-theme-yun/components/YunTwikoo.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunTwikoo-5954c060.js"
+    "/assets/YunTwikoo-36b7000c.js"
   ],
   "../../valaxy-theme-yun/components/YunWaline.vue": [
-    "/assets/YunWaline-b72526ab.js"
+    "/assets/YunWaline-32940a73.js"
   ],
   "../../valaxy-theme-yun/components/YunWaline.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunWaline-b72526ab.js"
+    "/assets/YunWaline-32940a73.js"
   ],
   "../../valaxy-theme-yun/components/YunWalineMeta.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "../../valaxy-theme-yun/composables/config.ts": [
@@ -7555,17 +7561,17 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/layouts/archives.vue": [
-    "/assets/archives-19b20f52.js"
+    "/assets/archives-ab991088.js"
   ],
   "../../valaxy-theme-yun/layouts/archives.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/archives-19b20f52.js"
+    "/assets/archives-ab991088.js"
   ],
   "../../valaxy-theme-yun/layouts/categories.vue": [
-    "/assets/categories-1eaae6d5.js",
+    "/assets/categories-aa760e0e.js",
     "/assets/categories-a60bba25.css"
   ],
   "../../valaxy-theme-yun/layouts/categories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories-1eaae6d5.js",
+    "/assets/categories-aa760e0e.js",
     "/assets/categories-a60bba25.css"
   ],
   "../../valaxy-theme-yun/layouts/default.vue": [
@@ -7630,11 +7636,11 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/layouts/home.vue": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/layouts/home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home-676321cd.js",
+    "/assets/home-55d9b4c6.js",
     "/assets/home-5309a144.css"
   ],
   "../../valaxy-theme-yun/layouts/layout.vue": [
@@ -7699,18 +7705,18 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/layouts/post.vue": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "../../valaxy-theme-yun/layouts/post.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "../../valaxy-theme-yun/layouts/tags.vue": [
-    "/assets/tags-7f67c026.js"
+    "/assets/tags-076b5ed3.js"
   ],
   "../../valaxy-theme-yun/layouts/tags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/tags-7f67c026.js"
+    "/assets/tags-076b5ed3.js"
   ],
   "../../valaxy-theme-yun/locales/en.yml": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
@@ -7835,13 +7841,13 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/pages/index.vue": [
-    "/assets/index-78ac6d66.js"
+    "/assets/index-5ce54c04.js"
   ],
   "../../valaxy-theme-yun/pages/page/[page].vue": [
-    "/assets/_page_-15fe6700.js"
+    "/assets/_page_-8e4c6922.js"
   ],
   "../../valaxy-theme-yun/pages/page/[page].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_page_-15fe6700.js"
+    "/assets/_page_-8e4c6922.js"
   ],
   "../../valaxy-theme-yun/setup/main.ts": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
@@ -8027,7 +8033,7 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "../../valaxy-theme-yun/utils/index.ts": [
-    "/assets/index-864e3270.js",
+    "/assets/index-f09cece8.js",
     "/assets/index-bc3499c1.css"
   ],
   "../../vite-ssg/dist/index.mjs": [
@@ -8885,11 +8891,11 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "components/ValaxyCopyright.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "components/ValaxyCopyright.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/post-f7eff010.js",
+    "/assets/post-2ce515e6.js",
     "/assets/post-1d1be697.css"
   ],
   "components/ValaxyHamburger.vue": [
@@ -9015,11 +9021,11 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "components/ValaxyMd.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "components/ValaxyMd.vue?vue&type=style&index=0&lang.css": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-dd09d1ba.js",
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang-49e78fe0.js",
     "/assets/ValaxyMain-e55e6dd1.css"
   ],
   "components/ValaxyOverlay.vue": [
@@ -9206,11 +9212,11 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "components/ValaxyPagination.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_style_index_0_lang-40539970.js",
+    "/assets/YunPostList.vue_vue_type_style_index_0_lang-0c81998f.js",
     "/assets/YunPostList-15692327.css"
   ],
   "components/ValaxyPagination.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunPostList.vue_vue_type_style_index_0_lang-40539970.js",
+    "/assets/YunPostList.vue_vue_type_style_index_0_lang-0c81998f.js",
     "/assets/YunPostList-15692327.css"
   ],
   "components/ValaxySidebar.vue": [
@@ -10861,10 +10867,10 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "layouts/404.vue": [
-    "/assets/404-5209666c.js"
+    "/assets/404-116026b5.js"
   ],
   "layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-5209666c.js"
+    "/assets/404-116026b5.js"
   ],
   "layouts/default.vue": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
@@ -10928,10 +10934,10 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "layouts/layout.vue": [
-    "/assets/layout-791132ee.js"
+    "/assets/layout-f1b12dd5.js"
   ],
   "layouts/post.vue": [
-    "/assets/post-6877c9ce.js"
+    "/assets/post-7287b833.js"
   ],
   "locales/en.yml": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
@@ -11300,10 +11306,10 @@
     "/assets/KaTeX_Typewriter-Regular-f01f3e87.ttf"
   ],
   "pages/[...all].vue": [
-    "/assets/_...all_-e43e59b3.js"
+    "/assets/_...all_-41488685.js"
   ],
   "pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-e43e59b3.js"
+    "/assets/_...all_-41488685.js"
   ],
   "setup/main.ts": [
     "/assets/KaTeX_AMS-Regular-0cdd387c.woff2",
