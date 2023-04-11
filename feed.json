@@ -1,0 +1,74 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "夜明前的琉璃色",
+    "home_page_url": "https://spreadwings-sky.github.io/",
+    "feed_url": "https://spreadwings-sky.github.io/feed.json",
+    "description": "There is a longer way ahead, After all",
+    "icon": "https://spreadwings-sky.github.io/images/avatar.png",
+    "author": {
+        "name": "小雨蝉",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>数据结构学什么</h1>\n<p>1.如何用程序代码把现实世界的问题<strong>信息化</strong></p>\n<p>2.如何用计算机高效的处理这些信息而创造价值</p>\n<h1>基本概念</h1>\n<h2>数据</h2>\n<p>数据是<strong>信息的载体</strong>，描述客观事物属性</p>\n",
+            "url": "https://spreadwings-sky.github.io/posts/数据结构",
+            "title": "数据结构",
+            "date_modified": "2023-03-30T00:00:00.000Z",
+            "date_published": "2023-04-11T06:56:38.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>关于系统</h1>\n<p>我使用的Linux系统是Ubuntu</p>\n<h1>安装过程</h1>\n<h2>安装zhs</h2>\n<p>我这边直接是从发行版的源进行安装</p>\n<p>运行下面的命令</p>\n<pre><code class=\"language-linux\">  sudo apt-get update</code></pre>\n",
+            "url": "https://spreadwings-sky.github.io/posts/Linux-zsh记录",
+            "title": "Linux-zsh记录",
+            "date_modified": "2023-03-11T00:00:00.000Z",
+            "date_published": "2023-03-11T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>起因</h1>\n<p>最近在使用Clion学习c语言的数据结构，然后发现再一个项目中创建带main函数的文件都需要手动更新<em>CMakeLists.txt</em>文件，这样的话就比较烦琐</p>\n<h1>改变</h1>\n<p>在了解到*CMake</p>\n",
+            "url": "https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件",
+            "title": "Clion使用笔记",
+            "date_modified": "2023-03-11T00:00:00.000Z",
+            "date_published": "2023-03-11T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n",
+            "url": "https://spreadwings-sky.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check [documentation](<a href=\"https://hex\">https://hex</a></p>\n",
+            "url": "https://spreadwings-sky.github.io/posts/hello-world",
+            "title": "Hello World",
+            "date_modified": "2020-03-15T18:15:16.000Z",
+            "date_published": "2020-03-15T18:15:16.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

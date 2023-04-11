@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://spreadwings-sky.github.io/</id>
+    <title>夜明前的琉璃色</title>
+    <updated>2023-04-11T06:57:43.438Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>小雨蝉</name>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://spreadwings-sky.github.io/"/>
+    <link rel="self" href="https://spreadwings-sky.github.io/feed.atom"/>
+    <subtitle>There is a longer way ahead, After all</subtitle>
+    <logo>https://spreadwings-sky.github.io/images/avatar.png</logo>
+    <icon>https://spreadwings-sky.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2023 © 小雨蝉</rights>
+    <entry>
+        <title type="html"><![CDATA[数据结构]]></title>
+        <id>https://spreadwings-sky.github.io/posts/数据结构</id>
+        <link href="https://spreadwings-sky.github.io/posts/数据结构"/>
+        <updated>2023-03-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>数据结构学什么</h1>
+<p>1.如何用程序代码把现实世界的问题<strong>信息化</strong></p>
+<p>2.如何用计算机高效的处理这些信息而创造价值</p>
+<h1>基本概念</h1>
+<h2>数据</h2>
+<p>数据是<strong>信息的载体</strong>，描述客观事物属性</p>
+]]></content>
+        <author>
+            <name>小雨蝉</name>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-04-11T06:56:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux-zsh记录]]></title>
+        <id>https://spreadwings-sky.github.io/posts/Linux-zsh记录</id>
+        <link href="https://spreadwings-sky.github.io/posts/Linux-zsh记录"/>
+        <updated>2023-03-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>关于系统</h1>
+<p>我使用的Linux系统是Ubuntu</p>
+<h1>安装过程</h1>
+<h2>安装zhs</h2>
+<p>我这边直接是从发行版的源进行安装</p>
+<p>运行下面的命令</p>
+<pre><code class="language-linux">  sudo apt-get update</code></pre>
+]]></content>
+        <author>
+            <name>小雨蝉</name>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-03-11T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clion使用笔记]]></title>
+        <id>https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件</id>
+        <link href="https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件"/>
+        <updated>2023-03-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>起因</h1>
+<p>最近在使用Clion学习c语言的数据结构，然后发现再一个项目中创建带main函数的文件都需要手动更新<em>CMakeLists.txt</em>文件，这样的话就比较烦琐</p>
+<h1>改变</h1>
+<p>在了解到*CMake</p>
+]]></content>
+        <author>
+            <name>小雨蝉</name>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-03-11T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://spreadwings-sky.github.io/posts/hello-valaxy</id>
+        <link href="https://spreadwings-sky.github.io/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+]]></content>
+        <author>
+            <name>小雨蝉</name>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://spreadwings-sky.github.io/posts/hello-world</id>
+        <link href="https://spreadwings-sky.github.io/posts/hello-world"/>
+        <updated>2020-03-15T18:15:16.000Z</updated>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
+]]></content>
+        <author>
+            <name>小雨蝉</name>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2020-03-15T18:15:16.000Z</published>
+    </entry>
+</feed>
