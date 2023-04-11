@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://spreadwings-sky.github.io/</id>
     <title>夜明前的琉璃色</title>
-    <updated>2023-04-11T15:06:40.616Z</updated>
+    <updated>2023-04-11T15:09:30.106Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>小雨蝉</name>
@@ -43,7 +43,7 @@
 <h2>安装zhs</h2>
 <p>我这边直接是从发行版的源进行安装</p>
 <p>运行下面的命令</p>
-<pre><code class="language-linux">  sudo apt-get update</code></pre>
+<pre><code class="language-shell">  sudo apt-get update</code></pre>
 ]]></content>
         <author>
             <name>小雨蝉</name>
