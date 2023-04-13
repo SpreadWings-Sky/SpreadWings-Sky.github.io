@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://spreadwings-sky.github.io/</id>
     <title>夜明前的琉璃色</title>
-    <updated>2023-04-13T12:18:27.885Z</updated>
+    <updated>2023-04-13T13:34:10.302Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>小雨蝉</name>
@@ -24,13 +24,18 @@
 <p>2.如何用计算机高效的处理这些信息而创造价值</p>
 <h1>基本概念</h1>
 <h2>数据</h2>
-<p>数据是<strong>信息的载体</strong>，描述客观事物属性</p>
+<p>数据是<strong>信息的载体</strong>，描述客观事物属性的数字，字符或者是所有能输入到计算机中<strong>能被计算机</strong></p>
+<p><strong>识别或处理</strong>的符号的集合，是程序加工的原料</p>
+<ul>
+<li>早期的计算机处理的数据-纯数值型问题</li>
+<li>现代的计算机处理的数据-经常处理非数值的问题</li>
+</ul>
 ]]></content>
         <author>
             <name>小雨蝉</name>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2023-04-11T00:00:00.000Z</published>
+        <published>2023-04-13T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux-zsh记录]]></title>

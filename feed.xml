@@ -4,7 +4,7 @@
         <title>夜明前的琉璃色</title>
         <link>https://spreadwings-sky.github.io/</link>
         <description>There is a longer way ahead, After all</description>
-        <lastBuildDate>Thu, 13 Apr 2023 12:18:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Apr 2023 13:34:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -18,13 +18,18 @@
             <title><![CDATA[数据结构]]></title>
             <link>https://spreadwings-sky.github.io/posts/数据结构</link>
             <guid>https://spreadwings-sky.github.io/posts/数据结构</guid>
-            <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 13 Apr 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h1>数据结构学什么</h1>
 <p>1.如何用程序代码把现实世界的问题<strong>信息化</strong></p>
 <p>2.如何用计算机高效的处理这些信息而创造价值</p>
 <h1>基本概念</h1>
 <h2>数据</h2>
-<p>数据是<strong>信息的载体</strong>，描述客观事物属性</p>
+<p>数据是<strong>信息的载体</strong>，描述客观事物属性的数字，字符或者是所有能输入到计算机中<strong>能被计算机</strong></p>
+<p><strong>识别或处理</strong>的符号的集合，是程序加工的原料</p>
+<ul>
+<li>早期的计算机处理的数据-纯数值型问题</li>
+<li>现代的计算机处理的数据-经常处理非数值的问题</li>
+</ul>
 ]]></content:encoded>
         </item>
         <item>
