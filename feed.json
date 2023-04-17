@@ -14,9 +14,9 @@
             "id": "",
             "content_html": "<h1>数据结构学什么</h1>\n<p>1.如何用程序代码把现实世界的问题<strong>信息化</strong></p>\n<p>2.如何用计算机高效的处理这些信息而创造价值</p>\n<h1>基本概念</h1>\n<h2>数据</h2>\n<p>数据是<strong>信息的载体</strong>，描述客观事物属性的数字，字符或者是所有能输入到计算机中<strong>能被计算机</strong></p>\n<p><strong>识别或处理</strong>的符号的集合，是程序加工的原料</p>\n<ul>\n<li>早期的计算机处理的数据-纯数值型问题</li>\n<li>现代的计算机处理的数据-经常处理非数值的问题</li>\n</ul>\n",
             "url": "https://spreadwings-sky.github.io/posts/数据结构",
-            "title": "数据结构",
+            "title": "数据结构-线性表",
             "date_modified": "2023-03-30T00:00:00.000Z",
-            "date_published": "2023-04-13T00:00:00.000Z",
+            "date_published": "2023-04-17T00:00:00.000Z",
             "author": {
                 "name": "小雨蝉",
                 "url": "https://valaxy.site"

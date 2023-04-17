@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://spreadwings-sky.github.io/</id>
     <title>夜明前的琉璃色</title>
-    <updated>2023-04-13T13:34:10.302Z</updated>
+    <updated>2023-04-17T15:30:21.797Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>小雨蝉</name>
@@ -15,7 +15,7 @@
     <icon>https://spreadwings-sky.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2023 © 小雨蝉</rights>
     <entry>
-        <title type="html"><![CDATA[数据结构]]></title>
+        <title type="html"><![CDATA[数据结构-线性表]]></title>
         <id>https://spreadwings-sky.github.io/posts/数据结构</id>
         <link href="https://spreadwings-sky.github.io/posts/数据结构"/>
         <updated>2023-03-30T00:00:00.000Z</updated>
@@ -35,7 +35,7 @@
             <name>小雨蝉</name>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2023-04-13T00:00:00.000Z</published>
+        <published>2023-04-17T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux-zsh记录]]></title>
