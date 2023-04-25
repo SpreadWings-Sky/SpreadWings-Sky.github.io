@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://spreadwings-sky.github.io/sitemap.xml
