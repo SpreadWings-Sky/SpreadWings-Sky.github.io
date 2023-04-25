@@ -14,7 +14,7 @@
             "id": "",
             "content_html": "<h1>栈的定义</h1>\n<p>栈也是一种线性表不过是一种特殊线性表</p>\n<p>栈（stack）是只允许在一端进行插入或删除操作的线性表</p>\n<h2>重要术语</h2>\n<p>![栈](<a href=\"https://spreadwings-sky.git\">https://spreadwings-sky.git</a></p>\n",
             "url": "https://spreadwings-sky.github.io/posts/数据结构-栈与队列",
-            "title": "数据结构-线性表",
+            "title": "数据结构-栈与队列",
             "date_modified": "2023-04-25T00:00:00.000Z",
             "date_published": "2023-04-25T00:00:00.000Z",
             "author": {

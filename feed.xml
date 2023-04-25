@@ -4,7 +4,7 @@
         <title>夜明前的琉璃色</title>
         <link>https://spreadwings-sky.github.io/</link>
         <description>There is a longer way ahead, After all</description>
-        <lastBuildDate>Tue, 25 Apr 2023 15:47:43 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Apr 2023 16:55:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,7 +15,7 @@
         <copyright>CC BY-NC-SA 4.0 2023 © 小雨蝉</copyright>
         <atom:link href="https://spreadwings-sky.github.io/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[数据结构-线性表]]></title>
+            <title><![CDATA[数据结构-栈与队列]]></title>
             <link>https://spreadwings-sky.github.io/posts/数据结构-栈与队列</link>
             <guid>https://spreadwings-sky.github.io/posts/数据结构-栈与队列</guid>
             <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
