@@ -1,0 +1,1 @@
+import{g as n,l as t,o as l,c as s}from"./app-0aa808d7.js";const c=n({__name:"YunGallery",props:{photos:null},setup(o){return(a,p)=>{const e=t("VAGallery");return l(),s(e,{photos:o.photos},null,8,["photos"])}}});export{c as default};
