@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://spreadwings-sky.github.io/</id>
     <title>夜明前的琉璃色</title>
-    <updated>2023-04-25T17:40:51.064Z</updated>
+    <updated>2023-04-27T10:26:06.784Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>小雨蝉</name>
@@ -19,11 +19,12 @@
         <id>https://spreadwings-sky.github.io/posts/数据结构-栈与队列</id>
         <link href="https://spreadwings-sky.github.io/posts/数据结构-栈与队列"/>
         <updated>2023-04-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h1>栈的定义</h1>
+        <content type="html"><![CDATA[<h1>栈</h1>
+<h2>定义</h2>
 <p>栈也是一种线性表不过是一种特殊线性表</p>
 <p>栈（stack）是只允许在一端进行插入或删除操作的线性表</p>
 <h2>重要术语</h2>
-<p>![栈](<a href="https://spreadwings-sky.git">https://spreadwings-sky.git</a></p>
+<p>![栈](<a href="https://spreadwings-sky">https://spreadwings-sky</a></p>
 ]]></content>
         <author>
             <name>小雨蝉</name>
