@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>夜明前的琉璃色</title>
+        <link>https://spreadwings-sky.github.io/</link>
+        <description>There is a longer way ahead, After all</description>
+        <lastBuildDate>Tue, 15 Oct 2024 14:04:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>夜明前的琉璃色</title>
+            <url>https://spreadwings-sky.github.io/images/avatar.png</url>
+            <link>https://spreadwings-sky.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 小雨蝉</copyright>
+        <atom:link href="https://spreadwings-sky.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[数据结构-栈与队列]]></title>
+            <link>https://spreadwings-sky.github.io/posts/数据结构-栈与队列</link>
+            <guid>https://spreadwings-sky.github.io/posts/数据结构-栈与队列</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>栈</h1>
+<h2>定义</h2>
+<p>栈也是一种线性表不过是一种特殊线性表</p>
+<p>栈（stack）是只允许在一端进行插入或删除操作的线性表</p>
+<h2>重要术语</h2>
+<p>![栈](<a href="https://spreadwings-sky">https://spreadwings-sky</a></p>
+<br/><p>访问 <a href="https://spreadwings-sky.github.io/posts/数据结构-栈与队列" target="_blank">https://spreadwings-sky.github.io/posts/数据结构-栈与队列</a> 阅读全文。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[数据结构-线性表]]></title>
+            <link>https://spreadwings-sky.github.io/posts/数据结构</link>
+            <guid>https://spreadwings-sky.github.io/posts/数据结构</guid>
+            <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>数据结构学什么</h1>
+<p>1.如何用程序代码把现实世界的问题<strong>信息化</strong></p>
+<p>2.如何用计算机高效的处理这些信息而创造价值</p>
+<h1>基本概念</h1>
+<h2>数据</h2>
+<p>数据是<strong>信息的载体</strong>，描述客观事物属性的数字，字符或者是所有能输入到计算机中<strong>能被计算机</strong></p>
+<p><strong>识别或处理</strong>的符号的集合，是程序加工的原料</p>
+<ul>
+<li>早期的计算机处理的数据-纯数值型问题</li>
+<li>现代的计算机处理的数据-经常处理非数值的问题</li>
+</ul>
+<br/><p>访问 <a href="https://spreadwings-sky.github.io/posts/数据结构" target="_blank">https://spreadwings-sky.github.io/posts/数据结构</a> 阅读全文。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Linux-zsh记录]]></title>
+            <link>https://spreadwings-sky.github.io/posts/Linux-zsh记录</link>
+            <guid>https://spreadwings-sky.github.io/posts/Linux-zsh记录</guid>
+            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>关于系统</h1>
+<p>我使用的Linux系统是Ubuntu</p>
+<h1>安装过程</h1>
+<h2>安装zhs</h2>
+<p>我这边直接是从发行版的源进行安装</p>
+<p>运行下面的命令</p>
+<pre><code class="language-shell">  sudo apt-get update</code></pre>
+<br/><p>访问 <a href="https://spreadwings-sky.github.io/posts/Linux-zsh记录" target="_blank">https://spreadwings-sky.github.io/posts/Linux-zsh记录</a> 阅读全文。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Clion使用笔记]]></title>
+            <link>https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件</link>
+            <guid>https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件</guid>
+            <pubDate>Sat, 11 Mar 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>起因</h1>
+<p>最近在使用Clion学习c语言的数据结构，然后发现再一个项目中创建带main函数的文件都需要手动更新<em>CMakeLists.txt</em>文件，这样的话就比较烦琐</p>
+<h1>改变</h1>
+<p>在了解到*CMake</p>
+<br/><p>访问 <a href="https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件" target="_blank">https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件</a> 阅读全文。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://spreadwings-sky.github.io/posts/hello-valaxy</link>
+            <guid>https://spreadwings-sky.github.io/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://spreadwings-sky.github.io/posts/hello-valaxy" target="_blank">https://spreadwings-sky.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://spreadwings-sky.github.io/posts/hello-world</link>
+            <guid>https://spreadwings-sky.github.io/posts/hello-world</guid>
+            <pubDate>Sun, 15 Mar 2020 18:15:16 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check [documentation](<a href="https://hex">https://hex</a></p>
+<br/><p>访问 <a href="https://spreadwings-sky.github.io/posts/hello-world" target="_blank">https://spreadwings-sky.github.io/posts/hello-world</a> 阅读全文。</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

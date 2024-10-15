@@ -1,0 +1,86 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "夜明前的琉璃色",
+    "home_page_url": "https://spreadwings-sky.github.io/",
+    "feed_url": "https://spreadwings-sky.github.io/feed.json",
+    "description": "There is a longer way ahead, After all",
+    "icon": "https://spreadwings-sky.github.io/images/avatar.png",
+    "author": {
+        "name": "小雨蝉",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>栈</h1>\n<h2>定义</h2>\n<p>栈也是一种线性表不过是一种特殊线性表</p>\n<p>栈（stack）是只允许在一端进行插入或删除操作的线性表</p>\n<h2>重要术语</h2>\n<p>![栈](<a href=\"https://spreadwings-sky\">https://spreadwings-sky</a></p>\n<br/><p>访问 <a href=\"https://spreadwings-sky.github.io/posts/数据结构-栈与队列\" target=\"_blank\">https://spreadwings-sky.github.io/posts/数据结构-栈与队列</a> 阅读全文。</p>",
+            "url": "https://spreadwings-sky.github.io/posts/数据结构-栈与队列",
+            "title": "数据结构-栈与队列",
+            "date_modified": "2023-04-25T00:00:00.000Z",
+            "date_published": "2023-04-25T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>数据结构学什么</h1>\n<p>1.如何用程序代码把现实世界的问题<strong>信息化</strong></p>\n<p>2.如何用计算机高效的处理这些信息而创造价值</p>\n<h1>基本概念</h1>\n<h2>数据</h2>\n<p>数据是<strong>信息的载体</strong>，描述客观事物属性的数字，字符或者是所有能输入到计算机中<strong>能被计算机</strong></p>\n<p><strong>识别或处理</strong>的符号的集合，是程序加工的原料</p>\n<ul>\n<li>早期的计算机处理的数据-纯数值型问题</li>\n<li>现代的计算机处理的数据-经常处理非数值的问题</li>\n</ul>\n<br/><p>访问 <a href=\"https://spreadwings-sky.github.io/posts/数据结构\" target=\"_blank\">https://spreadwings-sky.github.io/posts/数据结构</a> 阅读全文。</p>",
+            "url": "https://spreadwings-sky.github.io/posts/数据结构",
+            "title": "数据结构-线性表",
+            "date_modified": "2023-03-30T00:00:00.000Z",
+            "date_published": "2023-04-17T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>关于系统</h1>\n<p>我使用的Linux系统是Ubuntu</p>\n<h1>安装过程</h1>\n<h2>安装zhs</h2>\n<p>我这边直接是从发行版的源进行安装</p>\n<p>运行下面的命令</p>\n<pre><code class=\"language-shell\">  sudo apt-get update</code></pre>\n<br/><p>访问 <a href=\"https://spreadwings-sky.github.io/posts/Linux-zsh记录\" target=\"_blank\">https://spreadwings-sky.github.io/posts/Linux-zsh记录</a> 阅读全文。</p>",
+            "url": "https://spreadwings-sky.github.io/posts/Linux-zsh记录",
+            "title": "Linux-zsh记录",
+            "date_modified": "2023-03-11T00:00:00.000Z",
+            "date_published": "2023-03-11T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>起因</h1>\n<p>最近在使用Clion学习c语言的数据结构，然后发现再一个项目中创建带main函数的文件都需要手动更新<em>CMakeLists.txt</em>文件，这样的话就比较烦琐</p>\n<h1>改变</h1>\n<p>在了解到*CMake</p>\n<br/><p>访问 <a href=\"https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件\" target=\"_blank\">https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件</a> 阅读全文。</p>",
+            "url": "https://spreadwings-sky.github.io/posts/如何使用clion编译多个main文件",
+            "title": "Clion使用笔记",
+            "date_modified": "2023-03-11T00:00:00.000Z",
+            "date_published": "2023-03-11T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://spreadwings-sky.github.io/posts/hello-valaxy\" target=\"_blank\">https://spreadwings-sky.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://spreadwings-sky.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check [documentation](<a href=\"https://hex\">https://hex</a></p>\n<br/><p>访问 <a href=\"https://spreadwings-sky.github.io/posts/hello-world\" target=\"_blank\">https://spreadwings-sky.github.io/posts/hello-world</a> 阅读全文。</p>",
+            "url": "https://spreadwings-sky.github.io/posts/hello-world",
+            "title": "Hello World",
+            "date_modified": "2020-03-15T18:15:16.000Z",
+            "date_published": "2020-03-15T18:15:16.000Z",
+            "author": {
+                "name": "小雨蝉",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
